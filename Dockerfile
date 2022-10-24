@@ -6,4 +6,4 @@ WORKDIR /pethealthpptx
 RUN pip install -r requirements.txt
 
 ENTRYPOINT ["python"]
-CMD ["pptx_api.py"] 
+CMD ["main.py"] 
